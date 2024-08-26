@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com/s/playwriteittrad/v4/SlGKmR6Yo5oYZX5BFVcEySBSPE50BivN.woff2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <div id="time" class="time" aria-label="Current Time"></div>
+            <div id="date" class="date" aria-label="Current Date"></div>
+        </div>
+        <h1>Todo List</h1>
+        <div class="input-container">
+            <input class="todo-input" type="text" placeholder="Adda a new task..." aria-label="New task input"/>
+            <button class="add-button" aria-label="Add new task">
+                <i class="fa fa-plus-circle">
+                </i>
+            </button>
+        </div>
+        <div class="filters">
+            <button class="filter active" data-filter="all" aria-label="Show all tasks">All</button>
+            <button class="filter" data-filter="completed" aria-label="Show completed tasks">Complete</button>
+            <button class="filter" data-filter="pending" aria-label="Show incomplete tasks">Incimplete</button>
+        </div>
+        <div class="tofs-container">
+            <ul class="todos" aria-label="Todo list"></ul>
+        </div>
+        <hr class="counter">
+        <div class="counter-container">
+            <p>
+                <span>0</span>
+                items total
+            </p>
+            <button id="delete-all" class="filter" aria-label="Delete all tasks" style="display: inline-block;">Delete All</button>
+        </div>
+        <footer>
+            <div class="footer">
+                <p>
+                    created by
+                    <a href="https://github.com/vi-jigishu" target="_blank" rel="noopener noreferrer">Vijigishu</a>
+                </p>
+                <p>
+                    Powered by
+                    <a href="https://javascript.com/" target="_blank" rel="noopener noreferrer">javascript</a>
+                </p>
+                <p>
+                    CSS &HTML & Font Awesome by
+                    <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock-container">
+        <div id="time" class="time" aria-label="Current Time"></div>
+        <div id="date" class="date" aria-label="Current Date"></div>
+      </div>
+
+      <h1>Todo List</h1>
+
+      <div class="input-container">
+        <input
+          class="todo-input"
+          type="text"
+          placeholder="Add a new task..."
+          aria-label="New task input"
+        />
+        <button class="add-button" aria-label="Add new task">
+          <i class="fa fa-plus-circle"></i>
+        </button>
+      </div>
+
+      <div class="filters">
+        <button
+          class="filter active"
+          data-filter="all"
+          aria-label="Show all tasks"
+        >
+          All
+        </button>
+        <button
+          class="filter"
+          data-filter="completed"
+          aria-label="Show completed tasks"
+        >
+          Complete
+        </button>
+        <button
+          class="filter"
+          data-filter="pending"
+          aria-label="Show incomplete tasks"
+        >
+          Incomplete
+        </button>
+      </div>
+
+      <div class="todos-container">
+        <ul class="todos" aria-label="Todo list"></ul>
+      </div>
+
+      <hr class="counter" />
+      <div class="counter-container">
+        <p><span>0</span> items total</p>
+        <button class="filter" id="delete-all" aria-label="Delete all tasks">
+          Delete All
+        </button>
+      </div>
+
+      <footer>
+        <div class="footer">
+          <p>
+            Created by
+            <a
+              href="https://github.com/evyxiowo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Xievy</a
+            >
+          </p>
+          <p>
+            Powered by
+            <a
+              href="https://www.javascript.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >JavaScript</a
+            >
+          </p>
+          <p>
+            CSS & HTML & Font Awesome by
+            <a
+              href="https://www.w3schools.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >W3Schools</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html> -->
